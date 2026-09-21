@@ -34,6 +34,16 @@
 --    the display name. Fixes 'Flydubai' / 'Fly dubai' and similar splits
 --    without hard-coding every case.
 -- ---------------------------------------------------------------------
+DO $$
+BEGIN
+    IF (SELECT COUNT(*) FROM staging.arrivals) = 0 THEN
+        RAISE EXCEPTION 'staging.arrivals is empty: import raw.arrivals and run 03 first';
+    END IF;
+    IF (SELECT COUNT(*) FROM staging.departures) = 0 THEN
+        RAISE EXCEPTION 'staging.departures is empty: import raw.departures and run 04 first';
+    END IF;
+END $$;
+
 DROP TABLE IF EXISTS analytics.dim_airline;
 
 CREATE TABLE analytics.dim_airline AS

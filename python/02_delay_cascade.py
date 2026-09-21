@@ -48,6 +48,18 @@ turns = read_sql(
     WHERE actual_ground_min < 360
     """
 )
+# Postgres NUMERIC columns can arrive as Python Decimal objects depending on
+# the driver; force them to float so the filters and the regression behave.
+num_cols = ["sched_ground_min", "actual_ground_min", "ground_variance",
+            "arr_delay_min", "dep_delay_min", "delay_recovered"]
+turns[num_cols] = turns[num_cols].apply(pd.to_numeric)
+turns["arr_hour"] = pd.to_numeric(turns["arr_hour"]).astype(int)
+
+if turns.empty:
+    raise RuntimeError(
+        "analytics.turnarounds returned 0 rows. Check the table exists in pgAdmin "
+        "(SELECT COUNT(*) FROM analytics.turnarounds) and that .env points at the same database."
+    )
 print(f"{len(turns):,} turns under 6 hours loaded")
 print(turns[["sched_ground_min", "actual_ground_min", "arr_delay_min", "dep_delay_min"]].describe().round(1))
 
@@ -105,6 +117,10 @@ model_df["sched_ground_hr"] = model_df["sched_ground_min"] / 60
 model_df["hour_band"] = pd.cut(
     model_df["arr_hour"], bins=[-1, 5, 11, 17, 23], labels=["Night 00-05", "Morning 06-11", "Afternoon 12-17", "Evening 18-23"]
 )
+
+if model_df.empty:
+    raise RuntimeError("No rows left after the plausibility filter; inspect turns[['dep_delay_min','sched_ground_min']].describe().")
+print(f"{len(model_df):,} turns in the regression sample")
 
 ols = smf.ols(
     "dep_delay_min ~ arr_late + arr_early + sched_ground_hr + C(carrier_group) + C(hour_band) + C(terminal_changed)",

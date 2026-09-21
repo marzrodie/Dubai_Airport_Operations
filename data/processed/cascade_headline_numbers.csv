@@ -1,0 +1,7 @@
+turns_analysed,190579.0
+pct_dep_delayed_after_ontime_arrival,22.3
+pct_dep_delayed_after_30plus_late_arrival,65.7
+passthrough_minutes_per_minute,0.65
+minutes_absorbed_per_scheduled_hour,4.2
+median_sched_ground_home_carrier,150.0
+median_sched_ground_foreign_carrier,70.0
