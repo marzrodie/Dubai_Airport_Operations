@@ -1,0 +1,34 @@
+airline_icao,airline_name,carrier_group,turns_after_ontime,turns_after_late,pct_delayed_baseline,pct_delayed_inherited,recovery_gap,regime
+HIM,Himalaya Airlines,Foreign carrier,304,105,44.1,99.0,54.9,Ground process
+PBD,Pobeda,Foreign carrier,322,174,32.9,90.8,57.9,Ground process
+MSR,Egypt Air,Foreign carrier,774,650,32.7,87.7,55.0,Ground process
+KZR,Air Astana,Foreign carrier,472,250,30.7,92.0,61.3,Ground process
+PIA,Pakistan International Airlines,Foreign carrier,943,289,29.8,94.8,65.0,Ground process
+PGT,Pegasus Airlines,Foreign carrier,351,140,29.1,98.6,69.5,Ground process
+UBG,US-Bangla Airlines,Foreign carrier,484,144,27.9,92.4,64.5,Ground process
+SEJ,Spice Jet,Foreign carrier,1694,1666,27.4,95.5,68.1,Ground process
+SIF,Air Sial,Foreign carrier,512,171,24.0,91.8,67.8,No schedule slack
+UAE,Emirates,Home carrier,25325,7835,23.0,47.6,24.6,Both controlled
+FDB,Flydubai,Home carrier,25437,10838,22.2,40.6,18.4,Both controlled
+ETH,Ethiopian Airlines,Foreign carrier,781,428,22.0,77.6,55.6,No schedule slack
+JZR,Jazeera Airways,Foreign carrier,982,146,19.2,93.8,74.6,No schedule slack
+IGO,Indigo,Foreign carrier,4641,858,18.4,87.2,68.8,No schedule slack
+MEA,Middle East Airlines,Foreign carrier,803,205,18.2,92.2,74.0,No schedule slack
+AIC,Air India,Foreign carrier,2754,819,18.2,77.0,58.8,No schedule slack
+AXB,Air India Express,Foreign carrier,3521,922,17.5,86.7,69.2,No schedule slack
+THY,Turkish Airlines,Foreign carrier,650,383,17.5,79.1,61.6,No schedule slack
+AFL,Aeroflot Russian Int.Airl.,Foreign carrier,657,339,16.7,84.1,67.4,No schedule slack
+ALK,Srilankan Airlines,Foreign carrier,454,104,16.1,84.6,68.5,No schedule slack
+IAW,Iraqi Airways,Foreign carrier,670,165,15.1,70.3,55.2,No schedule slack
+KNE,FlyNas,Foreign carrier,4364,541,15.0,84.3,69.3,No schedule slack
+ABQ,Air Blue,Foreign carrier,1418,530,14.7,94.3,79.6,No schedule slack
+OMA,Oman Air,Foreign carrier,1104,176,12.4,68.8,56.4,No schedule slack
+BAW,British Airways,Foreign carrier,363,188,10.7,47.3,36.6,Both controlled
+KAC,Kuwait Airways,Foreign carrier,1113,206,9.9,89.8,79.9,No schedule slack
+GFA,Gulf Air,Foreign carrier,1876,250,9.5,80.0,70.5,No schedule slack
+QTR,Qatar Airways,Foreign carrier,1611,283,7.8,40.6,32.8,Both controlled
+FAD,Flyadeal Airline,Foreign carrier,1332,259,7.0,57.1,50.1,Both controlled
+CCA,Air China,Foreign carrier,307,197,6.8,57.4,50.6,Both controlled
+CSN,China Southern Airlines,Foreign carrier,587,181,6.6,39.8,33.2,Both controlled
+SVA,Saudi Arabian Airlines,Foreign carrier,4405,683,6.2,37.8,31.6,Both controlled
+RJA,Royal Jordanian,Foreign carrier,1035,159,5.0,49.7,44.7,Both controlled

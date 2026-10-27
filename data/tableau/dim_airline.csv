@@ -1,0 +1,159 @@
+airline_icao,airline_iata,airline_name,carrier_group,total_movements
+ABQ,PA,Air Blue,Foreign carrier,4477
+ABY,G9,Air Arabia PJSC,Foreign carrier,5
+ACA,AC,Air Canada,Foreign carrier,479
+ACO,3E,Air Choice One,Foreign carrier,2
+AEE,A3,Aegean Airlines,Foreign carrier,372
+AFG,FG,Ariana Afghan Airlines,Foreign carrier,1065
+AFL,SU,Aeroflot Russian Int.Airl.,Foreign carrier,2471
+AFR,AF,Air France,Foreign carrier,891
+AHY,J2,Azerbaijan Airlines,Foreign carrier,673
+AIC,AI,Air India,Foreign carrier,7812
+AIZ,IZ,Arkia Israeli Airlines,Foreign carrier,501
+ALK,UL,Srilankan Airlines,Foreign carrier,1209
+ASL,JU,Air Serbia,Foreign carrier,2
+ATC,TC,Air Tanzania,Foreign carrier,622
+AUA,OS,Austrian Airlines,Foreign carrier,105
+AWG,A2,Animawings,Foreign carrier,103
+AXB,IX,Air India Express,Foreign carrier,9777
+AXM,AK,AirAsia,Foreign carrier,1
+AYN,FS,FlyArystan,Foreign carrier,27
+AZO,A4,Azimuth Airlines,Foreign carrier,533
+BAW,BA,British Airways,Foreign carrier,1673
+BBC,BG,Biman Bangladesh Airlines,Foreign carrier,914
+BDR,J4,Badr Airlines,Foreign carrier,168
+BNL,NB,Berniq Airways,Foreign carrier,248
+BRU,B2,Belavia,Foreign carrier,526
+BTI,BT,Air Baltic Corporation,Foreign carrier,450
+BYD,B4,BeOnd,Foreign carrier,406
+CCA,CA,Air China,Foreign carrier,1077
+CEB,5J,CEBU Pacific Air,Foreign carrier,861
+CES,MU,China Eastern Airlines,Foreign carrier,1235
+CFG,DE,Condor Airlines,Foreign carrier,681
+CHH,HU,Hainan Airlines,Foreign carrier,168
+CPA,CX,Cathay Pacific Airways Ltd.,Foreign carrier,552
+CSC,3U,Sichuan Airlines,Foreign carrier,549
+CSN,CZ,China Southern Airlines,Foreign carrier,1643
+CYF,U8,Tus Airways,Foreign carrier,3
+CYP,CY,Cyprus Airways,Foreign carrier,621
+DAH,AH,Air Algerie,Foreign carrier,509
+DAO,D3,Daallo Airlines,Foreign carrier,332
+DLH,LH,Lufthansa,Foreign carrier,708
+DNU,R6,DAT LT,Foreign carrier,1
+DRK,KB,Drukair,Foreign carrier,161
+ELY,LY,El Al,Foreign carrier,622
+ENT,E4,Enter Air,Foreign carrier,222
+EQX,HN,Equair,Foreign carrier,1
+ESS,ZT,Thai Eastarjet,Foreign carrier,9
+ETD,EY,Etihad Airways,Foreign carrier,10
+ETH,ET,Ethiopian Airlines,Foreign carrier,2573
+EWG,EW,Eurowings,Foreign carrier,834
+EXV,8D,Expo Aviation,Foreign carrier,796
+FAD,F3,Flyadeal Airline,Foreign carrier,3608
+FBA,IF,Fly Baghdad,Foreign carrier,4
+FDB,FZ,Flydubai,Home carrier,143771
+FHY,FH,Freebird Airlines,Foreign carrier,8
+FIA,5F,Fly One,Foreign carrier,203
+FIN,AY,Finn Air,Foreign carrier,203
+FJL,9P,Fly Jinnah,Foreign carrier,307
+FPK,FS,None,Foreign carrier,2
+FYC,XH,Fly Cham,Foreign carrier,12
+GFA,GF,Gulf Air,Foreign carrier,5264
+GMS,NJ,Ghadames Air,Foreign carrier,1
+HIM,H9,Himalaya Airlines,Foreign carrier,938
+HYS,H4,HiSky,Foreign carrier,127
+IAW,IA,Iraqi Airways,Foreign carrier,1812
+IBK,D8,Norwegian Air International,Foreign carrier,68
+IGO,6E,Indigo,Foreign carrier,11718
+IRA,IR,Iran Air,Foreign carrier,584
+IRB,B9,Iran Air Tours,Foreign carrier,659
+IRM,W5,Mahan Air,Foreign carrier,1382
+ISR,6H,Israir Airlines,Foreign carrier,322
+ITY,AZ,ITA Airways,Foreign carrier,520
+IYE,IY,Yemenia -Yemen Airways,Foreign carrier,194
+JAV,R5,Jordan Aviation Airlines,Foreign carrier,4
+JZR,J9,Jazeera Airways,Foreign carrier,2411
+KAC,KU,Kuwait Airways,Foreign carrier,2752
+KAL,KE,Korean Airlines,Foreign carrier,524
+KFS,K9,Kalitta Charters,Foreign carrier,90
+KLM,KL,KLM-Royal Dutch Airlines,Foreign carrier,554
+KMF,RQ,Kam Air,Foreign carrier,1252
+KNE,XY,FlyNas,Foreign carrier,10359
+KQA,KQ,Kenya Airways,Foreign carrier,1454
+KZR,KC,Air Astana,Foreign carrier,1549
+LGL,LG,Lux Air,Foreign carrier,80
+LGW,HE,LGW,Foreign carrier,2
+LOT,LO,LOT - Polish Airlines,Foreign carrier,213
+LZB,FB,Bulgaria Air,Foreign carrier,5
+MEA,ME,Middle East Airlines,Foreign carrier,2215
+MFX,C6,My Freighter,Foreign carrier,737
+MGH,4M,Mavi Gok Havacilik,Foreign carrier,2
+MGL,OM,Miat - Mongolian Airlines,Foreign carrier,2
+MMA,8M,Myanmar Airways International,Foreign carrier,302
+MMZ,YU,EuroAtlantic Airways,Foreign carrier,1
+MNU,7Q,Elite Airways,Foreign carrier,1
+MSC,SM,Air Cairo,Foreign carrier,2
+MSR,MS,Egypt Air,Foreign carrier,3031
+MXD,OD,Batik Air Malaysia,Foreign carrier,336
+NMA,NE,Nesma Airlines,Foreign carrier,1
+NSZ,D8,Norwegian Air Sweden,Foreign carrier,57
+OAE,OY,None,Foreign carrier,1
+OMA,WY,Oman Air,Foreign carrier,2835
+OMS,OV,Salam Air,Foreign carrier,494
+OOO,4L,One Click Airways,Foreign carrier,3
+OYA,YI,FLY OYA,Foreign carrier,205
+PAL,PR,Philippine Airlines,Foreign carrier,550
+PBD,DP,Pobeda,Foreign carrier,1074
+PGT,PC,Pegasus Airlines,Foreign carrier,1040
+PIA,PK,Pakistan International Airlines,Foreign carrier,2783
+PVG,P6,Privilege Style,Foreign carrier,2
+QNT,HH,Qanot Sharq,Foreign carrier,109
+QSM,QB,Qeshm Air,Foreign carrier,790
+QTR,QR,Qatar Airways,Foreign carrier,4014
+RAM,AT,Royal Air Moroc,Foreign carrier,307
+RBA,BI,Royal Brunei Airlines,Foreign carrier,492
+RJA,RJ,Royal Jordanian,Foreign carrier,2570
+RNA,RA,Royal Nepal Airlines,Foreign carrier,536
+RWD,WB,Rwand Air Express,Foreign carrier,519
+RWZ,WZ,Red Wings Airlines,Foreign carrier,45
+RXI,RX,Riyadh Air,Foreign carrier,179
+SBI,S7,S7 Airlines,Foreign carrier,659
+SDM,FV,Rossiya Airlines,Foreign carrier,163
+SEJ,SG,Spice Jet,Foreign carrier,8146
+SEK,4R,Star East Airline,Foreign carrier,1
+SEP,ER,Serene Air,Foreign carrier,257
+SEU,U5,SkyUp MT Limited,Foreign carrier,1
+SHI,IS,Sepehran Airlines,Foreign carrier,455
+SIA,SQ,Singapore Airlines,Foreign carrier,567
+SIF,PF,Air Sial,Foreign carrier,1486
+SMR,SZ,Somon Air,Foreign carrier,338
+SNR,SO,Sun Air,Foreign carrier,4
+STW,2S,Southwind Airlines,Foreign carrier,12
+SVA,SV,Saudi Arabian Airlines,Foreign carrier,10718
+SVR,U6,Ural Airlines,Foreign carrier,781
+SWR,LX,Swiss International Air Lines,Foreign carrier,564
+SXD,XG,SunExpress Deutschland,Foreign carrier,2
+SXS,XQ,SunExpress,Foreign carrier,631
+SYR,RB,Syrian Arab Airlines,Foreign carrier,682
+THA,TG,Thai Airways International,Foreign carrier,5
+THY,TK,Turkish Airlines,Foreign carrier,2780
+TKJ,VF,AJet,Foreign carrier,860
+TQQ,3T,Tarco Aviation,Foreign carrier,187
+TRA,HV,Transavia Airlines,Foreign carrier,165
+TUA,T5,Turkmenistan Airlines,Foreign carrier,161
+TVR,T8,Terra Avia,Foreign carrier,18
+TVS,QS,Travel Servis Airlines,Foreign carrier,437
+UAE,EK,Emirates,Home carrier,206584
+UAL,UA,United Airlines,Foreign carrier,558
+UBD,UD,UBD,Foreign carrier,69
+UBG,BS,US-Bangla Airlines,Foreign carrier,1455
+UGD,UR,Uganda Airlines,Foreign carrier,282
+URO,SE,European Cargo Limited,Foreign carrier,7
+UTA,UT,UTair Aviation,Foreign carrier,637
+UZB,HY,Uzbekistan Airways,Foreign carrier,960
+VAW,F6,Fly2Sky,Foreign carrier,1
+VIR,VS,Virgin Atlantic Airways,Foreign carrier,220
+WFL,2W,World2Fly,Foreign carrier,1
+WMT,W4,Wizz Air Malta,Foreign carrier,410
+WZZ,W6,Wizzair,Foreign carrier,246
+ZZZ,ZZ,Dummy,Foreign carrier,1

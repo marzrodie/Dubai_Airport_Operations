@@ -1,0 +1,2 @@
+total_movements,total_turnarounds,airlines,destinations,pct_arr_delayed_15,pct_dep_delayed_15,median_dep_delay_min,pct_cancelled,median_sched_ground_home,median_sched_ground_foreign
+509382,230928,158,354,23.7,32.9,8.6,1.85,150,70
