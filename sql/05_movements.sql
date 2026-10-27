@@ -30,20 +30,34 @@
 -- =====================================================================
 
 -- ---------------------------------------------------------------------
--- 1. Airline dimension: the most frequent raw name per ICAO code becomes
---    the display name. Fixes 'Flydubai' / 'Fly dubai' and similar splits
---    without hard-coding every case.
+-- 0. Preconditions
+--    This script unions the two staging tables. If either is empty the
+--    union still succeeds, silently producing a half dataset that every
+--    downstream step then accepts — which is exactly how an earlier build
+--    ended up with a departures-only movements table and an empty
+--    turnarounds table, with no error raised anywhere.
+--
+--    A DO block runs procedural PL/pgSQL without creating a function;
+--    RAISE EXCEPTION aborts the whole script. Four lines, and the failure
+--    becomes loud instead of silent.
 -- ---------------------------------------------------------------------
 DO $$
 BEGIN
     IF (SELECT COUNT(*) FROM staging.arrivals) = 0 THEN
-        RAISE EXCEPTION 'staging.arrivals is empty: import raw.arrivals and run 03 first';
+        RAISE EXCEPTION
+            'staging.arrivals is empty — import raw.arrivals and run 03_staging_arrivals.sql first';
     END IF;
     IF (SELECT COUNT(*) FROM staging.departures) = 0 THEN
-        RAISE EXCEPTION 'staging.departures is empty: import raw.departures and run 04 first';
+        RAISE EXCEPTION
+            'staging.departures is empty — import raw.departures and run 04_staging_departures.sql first';
     END IF;
 END $$;
 
+-- ---------------------------------------------------------------------
+-- 1. Airline dimension: the most frequent raw name per ICAO code becomes
+--    the display name. Fixes 'Flydubai' / 'Fly dubai' and similar splits
+--    without hard-coding every case.
+-- ---------------------------------------------------------------------
 DROP TABLE IF EXISTS analytics.dim_airline;
 
 CREATE TABLE analytics.dim_airline AS

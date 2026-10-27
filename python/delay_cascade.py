@@ -1,3 +1,15 @@
+# ---
+# jupyter:
+#   jupytext:
+#     cell_metadata_filter: -all
+#     formats: notebooks//ipynb,python//py:percent
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#       jupytext_version: 1.19.5
+# ---
+
 # %% [markdown]
 # # Delay cascade analysis: does a late arrival become a late departure?
 #

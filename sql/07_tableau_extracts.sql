@@ -269,8 +269,8 @@ UNION ALL SELECT 'agg_coverage',              COUNT(*) FROM extract.agg_coverage
 --
 -- Option A - psql (fastest, run from the dxb_ops folder):
 --
---   \copy extract.fct_movements             TO 'data/tableau/fct_movements.csv'             CSV HEADER
---   \copy extract.fct_turnarounds           TO 'data/tableau/fct_turnarounds.csv'           CSV HEADER
+   \copy extract.fct_movements             TO 'data/tableau/fct_movements.csv'             CSV HEADER
+   \copy extract.fct_turnarounds           TO 'data/tableau/fct_turnarounds.csv'           CSV HEADER
 --   \copy extract.dim_airline               TO 'data/tableau/dim_airline.csv'               CSV HEADER
 --   \copy extract.dim_station               TO 'data/tableau/dim_station.csv'               CSV HEADER
 --   \copy extract.agg_cascade_curve         TO 'data/tableau/agg_cascade_curve.csv'         CSV HEADER
